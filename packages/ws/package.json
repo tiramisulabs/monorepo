@@ -1,5 +1,5 @@
 {
-	"name": "@lib/main",
+	"name": "@seyfert/ws",
 	"version": "0.0.0",
 	"private": true,
 	"license": "MIT",
@@ -7,10 +7,11 @@
 		"access": "public"
 	},
 	"scripts": {
-		"dev": "tsc --watch"
+		"dev": "tsc --watch",
+		"build": "tsc"
 	},
 	"dependencies": {
 		"typescript": "^5.5.4",
-		"@lib/sub": "workspace:*"
+		"@lib/api": "workspace:*"
 	}
 }

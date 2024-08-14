@@ -1,5 +1,5 @@
 {
-	"name": "seyfert-turborepo",
+	"name": "seyfert",
 	"private": true,
 	"scripts": {
 		"build": "turbo build",
@@ -9,9 +9,6 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
-		"@internal/configs": "workspace:*",
-		"@lib/main": "workspace:*",
-		"@lib/sub": "workspace:*",
 		"turbo": "^2.0.12",
 		"typescript": "^5.5.4"
 	},
