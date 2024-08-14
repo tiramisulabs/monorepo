@@ -1,17 +1,17 @@
 {
-	"name": "@lib/api",
+	"name": "@lib/main",
 	"version": "0.0.0",
 	"private": true,
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
 	},
-	"main": "lib/index.js",
 	"scripts": {
 		"dev": "tsc --watch",
 		"build": "tsc"
 	},
 	"dependencies": {
-		"typescript": "^5.5.4"
+		"typescript": "^5.5.4",
+		"@lib/sub": "workspace:*"
 	}
 }
