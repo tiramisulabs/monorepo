@@ -10,8 +10,10 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"@internal/configs": "workspace:*",
-		"turbo": "^2.0.11",
-		"typescript": "^5.4.5"
+		"@lib/main": "workspace:*",
+		"@lib/sub": "workspace:*",
+		"turbo": "^2.0.12",
+		"typescript": "^5.5.4"
 	},
 	"packageManager": "pnpm@8.15.6",
 	"engines": {

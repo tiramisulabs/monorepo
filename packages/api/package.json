@@ -1,10 +1,13 @@
 {
-	"name": "@internal/configs",
+	"name": "@lib/sub",
 	"version": "0.0.0",
 	"private": true,
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public"
+	},
+	"scripts": {
+		"dev": "tsc --watch"
 	},
 	"dependencies": {
 		"typescript": "^5.5.4"
