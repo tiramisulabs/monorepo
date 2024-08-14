@@ -1,3 +1,3 @@
-import { IsSub } from "@lib/sub";
+import { IsSub } from '@lib/sub';
 
-console.log(IsSub)
+console.log(IsSub);

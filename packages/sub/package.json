@@ -9,7 +9,9 @@
 	"main": "lib/index.js",
 	"scripts": {
 		"dev": "tsc --watch",
-		"build": "tsc"
+		"build": "tsc",
+		"lint": "biome lint --write ./src",
+		"format": "biome format --write ./src"
 	},
 	"dependencies": {
 		"typescript": "^5.5.4"

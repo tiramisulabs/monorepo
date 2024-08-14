@@ -1,1 +1,1 @@
-export const IsSub = true
+export const IsSub = true;
